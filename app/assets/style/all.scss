@@ -1,23 +1,57 @@
-$color: #00cc99;
+$primary:      #916000 !default;
+$secondary:     #CDDDCD !default;
+$border-radius:               .125rem !default; // 2px
+$paragraph-margin-bottom: 0;
+$text-muted:                  #00000062 !default;
+
+@import "bootstrap/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+// font
+.lato-regular {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.lato-bold {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.roboto-mono-regular {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.primary-color {
+  color: $primary;
+}
+
+ .logo {
+    float: left;
+    a {
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png");
+      width: 128px;
+      height: 38px;
+      display: block;
+      text-indent: 101%;
+      overflow: hidden;
+      word-spacing: nowrap;
+      // float: left;
+    }
+  }
 
 .header {
-  height: 200px;
-  background-color: #00cc99;
-}
+ 
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
+  li {
+    margin-right: 32px;
   }
 }
+
