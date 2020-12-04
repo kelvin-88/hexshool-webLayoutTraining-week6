@@ -116,19 +116,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   .menu {
     li {
       margin-right: 32px;
-      color: $secondary;
+      // color: $secondary;
     }
 
     li:last-child() {
       margin-right: 0;
+    }
+
+    a {
+      color: $secondary;
+      text-decoration: none;
     }
   }
 
   .brand {
     background:$primary;
     li {
-      margin-right: 32px;
+      margin-right: 32px; 
+    }
+    a {
       color:white;
+      text-decoration: none;
     }
   }
 
@@ -142,6 +150,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     a {
       background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png");
     }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
   }
 }
 
@@ -231,6 +244,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   .text {
     margin-top: 332px;
     font: normal normal 600 32px/48px PingFang TC;
+    color: #8D8D8D;
+    margin-bottom: 20px;
   }
 
   a {

@@ -93,11 +93,15 @@ h1, .h1 {
 
 .footer {
   background: $primary;
-  color: white;
+  // color: white;
   .logo {
     a {
       background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png");
     }
+  }
+
+  a {
+    color: white;
   }
 
  
