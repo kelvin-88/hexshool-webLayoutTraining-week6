@@ -128,17 +128,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     }
   }
 
-  .brand {
-    background:$primary;
-    li {
-      margin-right: 32px; 
-    }
-    a {
-      color:white;
-      text-decoration: none;
-    }
-  }
-
+  
 }
 
 .footer {
@@ -171,6 +161,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   height: 400px;
 }
 
+.brand {
+  background:$primary;
+  li {
+    margin-right: 32px; 
+  }
+  a {
+    color:white;
+    text-decoration: none;
+  }
+}
 
 
 .products {
@@ -320,12 +320,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
       text-align: center;
   }
 
-
-
-  &:before {
-    
+  &:before {  
     background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index8.jpg");
-
     content: ' ';
     // display: block;
     position: absolute;
@@ -337,11 +333,73 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     // height: 100%;
     z-index: 1;
     opacity: 0.5;
-    // background-image: url('https://hexschool.github.io/webLayoutTraining1st/week3/product-8.png');
     background-repeat: no-repeat;
     // background-position: 50% 0;
     background-size: cover;
     
+  }
+}
+
+// shopping cart 
+.productInfo {
+  margin-top: 80px;
+  .image1, .image2, .image3, .image4 {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image1, .image4 {
+    // max-width: 100%;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product1.jpg");    
+    height: 460px;
+  }
+  .image2 {
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product2.jpg");
+    height: 640px;
+  }
+  .image3 {
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product3.jpg");
+    height: 640px;
+    // height: 640px;
+    // object-fit: cover;
+    background-position: center;
+  }
+  .image1 {    
+    margin-bottom: 30px;
+  }
+  .image4 {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .qty, .addShoppingCart {
+    width: 100%;
+    padding: 0;
+    font: normal normal normal 16px/22px PingFang TC;
+  }
+  .qty {
+    border: 1px solid #916000;
+    border-radius: 4px 0px 0px 4px;
+  }
+  .addFavorite {
+    color: $primary;
+  }
+  .productInfoPrice {
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font: normal normal 300 20px/30px SF Pro Text;
+  }
+
+  .productInfoTitle {
+    font: normal normal normal 16px/24px SF Pro Text;
+    font-weight: bold;
+  }
+  .productInfoText {
+    font: normal normal 300 16px/24px PingFang TC;
+  }
+
+  ul {
+    margin-top: 80px;
   }
 }
 
