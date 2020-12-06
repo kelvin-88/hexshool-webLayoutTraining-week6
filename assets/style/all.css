@@ -8578,20 +8578,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .miniText {
   font: normal normal 300 16px/24px SF Pro Text; }
 
-.viewMore {
-  color: #AC8A46; }
-
-.productText {
-  margin-bottom: 52px; }
-
-.largeButton {
-  border: 2px solid #FFFFFF;
-  border-radius: 30px;
-  background: transparent; }
-
-.footerMenuItems {
-  margin-right: 2.25rem; }
-
 .lato-regular {
   font-family: 'Lato', sans-serif;
   font-weight: 400; }
@@ -8648,6 +8634,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   .brand a {
     color: white;
     text-decoration: none; }
+
+.largeButton {
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  background: transparent; }
+
+.footerMenuItems {
+  margin-right: 2.25rem; }
+
+.viewMore {
+  color: #AC8A46; }
+
+.productText {
+  margin-bottom: 52px; }
 
 .products {
   padding: 60px 0;
@@ -8766,6 +8766,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     background-repeat: no-repeat;
     background-size: cover; }
 
+@media (min-width: 992px) {
+  .bannerImage, .bannerImageText {
+    height: 870px; }
+  .product .productImage {
+    height: 555px; }
+  .productMaintenance img {
+    height: 1080px; }
+  .productMaintenance ul {
+    padding: 92px 0; }
+  .bottleRecycling {
+    margin: 60px 0; } }
+
 .productInfo {
   margin-top: 50px; }
   .productInfo .image1, .productInfo .image2, .productInfo .image3, .productInfo .image4 {
@@ -8813,16 +8825,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     margin-top: 40px; }
 
 @media (min-width: 992px) {
-  .bannerImage, .bannerImageText {
-    height: 870px; }
-  .product .productImage {
-    height: 555px; }
-  .productMaintenance img {
-    height: 1080px; }
-  .productMaintenance ul {
-    padding: 92px 0; }
-  .bottleRecycling {
-    margin: 60px 0; }
   .productInfo {
     margin-top: 80px; }
     .productInfo .image1 {
