@@ -103,7 +103,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .logo {
   float: left;
   a {
-    // background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfume.png");
+    // background-image: url("../images/d’Perfume.png");
     width: 128px;
     height: 38px;
     display: block;
@@ -137,7 +137,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: white;
   .logo {
     a {
-      background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d’Perfumewhite.png");
+      background-image: url("../images/d’Perfumewhite.png");
     }
   }
 
@@ -152,7 +152,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .bannerImage {
-  background: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg") no-repeat;
+  background: url("../images/index1.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -243,7 +243,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 .moreInformation {
   height: 600px;
-  background: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg") no-repeat;
+  background: url("../images/index10.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 
@@ -304,7 +304,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   // position: relative;
     // overflow: hidden;
   //  background-color: black;
-  // background: transparent url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index8.jpg") no-repeat;
+  // background: transparent url("../images/index8.jpg") no-repeat;
   // background-size: cover;
   // background-position: center; 
   // background-color: black;
@@ -321,7 +321,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   }
 
   &:before {  
-    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index8.jpg");
+    background-image: url("../images/index8.jpg");
     content: ' ';
     // display: block;
     position: absolute;
@@ -350,18 +350,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   }
   .image1, .image4 {
     // max-width: 100%;
-    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product1.jpg");    
+    background-image: url("../images/product1.jpg");    
   }
   .image1 {
     height: 220px;
   }
   .image2 {
     margin-top: 40px;
-    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product2.jpg");
+    background-image: url("../images/product2.jpg");
     height: 640px;
   }
   .image3 {
-    background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/product3.jpg");
+    background-image: url("../images/product3.jpg");
     height: 640px;
     // height: 640px;
     // object-fit: cover;
